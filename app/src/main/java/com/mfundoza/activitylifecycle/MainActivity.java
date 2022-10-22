@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Toast.makeText(this, "onCreate()", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "onCreate() called", Toast.LENGTH_SHORT).show();
     }
 
     /** The onCreate method is the second method called in the Activity lifecycle and should be
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
 
-        Toast.makeText(this, "onStart()", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "onStart() called", Toast.LENGTH_SHORT).show();
     }
 
     /** The onResume method is the third method called in the Activity lifecycle and is an
@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
 
-        Toast.makeText(this, "onResume", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "onResume() called", Toast.LENGTH_SHORT).show();
     }
 
     /** The onPause() method to pause or adjust operations that should not continue (or should
@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onPause() {
         super.onPause();
 
-        Toast.makeText(this, "onPause", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "onPause() called", Toast.LENGTH_SHORT).show();
     }
 
     /** When your activity is no longer visible to the user, it has entered the Stopped state, and
@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onStop() {
         super.onStop();
 
-        Toast.makeText(this, "onStop", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "onStop() called", Toast.LENGTH_SHORT).show();
     }
 
     /** onDestroy() is called before the activity is destroyed. The system invokes this callback
@@ -122,6 +122,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
 
-        Toast.makeText(this, "onDestroy", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "onDestroy() called", Toast.LENGTH_SHORT).show();
     }
 }
