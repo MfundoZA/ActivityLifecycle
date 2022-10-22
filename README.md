@@ -1,1 +1,6 @@
-This is a small repo I made to test out and understand the Activity lifecycle
+# Android Activity Lifecycle
+
+My first android project that I made to learn more about the Activity Lifecycle system
+
+# What I learned
+* I learnt what the role of each lifecycle method is and when they are called 
